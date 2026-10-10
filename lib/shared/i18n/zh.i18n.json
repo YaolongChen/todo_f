@@ -1,0 +1,34 @@
+{
+  "appTitle": "待办事项",
+  "common": {
+    "retry": "重试"
+  },
+  "todoList": {
+    "title": "待办事项",
+    "create": "新建",
+    "emptyTitle": "还没有待办事项",
+    "emptyHint": "点击右下角“${action: String}”添加第一条待办",
+    "completed": "已完成",
+    "notCompleted": "未完成",
+    "completeAction": "标记完成"
+  },
+  "todoCreate": {
+    "title": "新建待办",
+    "contentLabel": "内容",
+    "contentHint": "请输入待办内容",
+    "contentRequired": "内容不能为空",
+    "save": "保存",
+    "saving": "保存中…",
+    "created": "待办已创建"
+  },
+  "todoFailures": {
+    "unknown": "待办操作失败，请稍后重试",
+    "contentEmpty": "待办内容不能为空",
+    "contentTooLong": "待办内容不能超过 ${maxLength: int} 个字符",
+    "invalidData": "待办数据异常，请稍后重试",
+    "alreadyCompleted": "待办已完成，请勿重复操作",
+    "notFound": "待办不存在或已被移除",
+    "load": "待办加载失败，请稍后重试",
+    "save": "待办保存失败，请稍后重试"
+  }
+}

@@ -1,0 +1,16 @@
+# Shared codegen configuration.
+#
+# The `slang` i18n options live here rather than in slang.yaml because
+# build_runner restricts a builder's inputs to the files declared in this file:
+# only through this config can `dart run build_runner build` see the translation
+# sources and the base locale. Both generators read this block, so it stays the
+# single source of truth.
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          base_locale: zh
+          input_directory: lib/shared/i18n
+          output_directory: lib/shared/i18n
+          output_file_name: strings.g.dart
